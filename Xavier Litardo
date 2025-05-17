@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Xavier Litardo – Cantautor de Música Cristiana</title>
+  <style>
+    @font-face {
+      font-family: 'Ode an Erik';
+      src: url('OdeanErik.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      position: relative;
+    }
+
+    .portada-img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .titulo-encima {
+      position: absolute;
+      top: 50%;
+      left: 5%;
+      transform: translateY(-50%);
+      text-align: left;
+    }
+
+    .titulo-encima h1 {
+      margin: 0;
+      font-size: 150px;
+      font-family: 'Ode an Erik', serif;
+      font-weight: normal;
+      color: #000;
+      text-shadow: 4px 4px 10px #fff;
+    }
+
+    .titulo-encima p {
+      margin: 10px 0 0 0;
+      font-size: 22px;
+      color: #ccc;
+      text-shadow: 1px 1px 4px #000;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .perfil {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+
+    .perfil img {
+      max-width: 200px;
+      border-radius: 10px;
+    }
+
+    .bio-texto {
+      flex: 1;
+    }
+
+    .spotify-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 12px 25px;
+      background-color: #1DB954;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: bold;
+      box-shadow: 0 0 10px #1DB954;
+    }
+
+    .spotify-btn:hover {
+      background-color: #1aa34a;
+    }
+
+    .video, .audio, .redes {
+      margin-top: 30px;
+    }
+
+    footer {
+      background-color: #c0392b;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 40px;
+    }
+
+    a {
+      color: #e74c3c;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Portada con nombre encima -->
+  <header>
+    <img src="C:\Users\Benjamin\Desktop\carpeta web xavier\portada.jpg" alt="Portada Xavier Litardo" class="portada-img">
+    <div class="titulo-encima">
+      <h1>Xavier Litardo</h1>
+      <p>Cantautor de Música Cristiana</p>
+    </div>
+  </header>
+
+  <main>
+    <!-- Foto de perfil y biografía -->
+    <section class="perfil">
+      <img src="C:\Users\Benjamin\Desktop\carpeta web xavier\foto perfil.jpg" alt="Xavier Litardo">
+      <div class="bio-texto">
+        <h2>Biografía</h2>
+        <p>
+          Xavier Litardo es un cantautor ecuatoriano de música cristiana, originario de Guayaquil. En sus canciones plasma las bondades de Dios en su vida, compartiendo mensajes de fe y esperanza.
+        </p>
+        <a class="spotify-btn" href="https://open.spotify.com/artist/3cquuE7uUnB1F8Crk5wJ3W" target="_blank">🎵 Perfil en Spotify</a>
+      </div>
+    </section>
+
+    <!-- Video -->
+    <section class="video">
+      <h2>Video Musical</h2>
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/S6ihvY5CX9c" title="Xavier Litardo - Toma mi corazón" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <!-- Audio -->
+    <section class="audio">
+      <h2>Escucha mi música</h2>
+      <audio controls>
+        <source src="https://soundcloud.com/xavier-litardo/toma-mi-corazon/download" type="audio/mpeg">
+        Tu navegador no soporta la reproducción de audio.
+      </audio>
+    </section>
+
+    <!-- Redes sociales -->
+    <section class="redes">
+      <h2>Sígueme en redes sociales</h2>
+      <ul>
+        <li><a href="https://www.facebook.com/xavierlitardo.oficial/" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/xavier.litardo/" target="_blank">Instagram</a></li>
+        <li><a href="https://soundcloud.com/xavier-litardo" target="_blank">SoundCloud</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Xavier Litardo. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
